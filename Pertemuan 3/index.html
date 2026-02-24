@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Praktikum 3</title>
+</head>
+<body>
+    <header style="display: flex; align-items: center; justify-content: space-between; padding: 15px; background-color: rgb(228, 170, 32);">
+        <img src="himakom.png" style="border-radius: 50%" alt="logo" height="100" width="100">
+        <nav style="font-family: 'Courier New', Courier, monospace; ; padding: 10px 20px;"> 
+            <a href="index.html">Home</a>
+            <a href="blog.html">Blog</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+    
+    <section>
+        <h2>Form Input Mahasiswa</h2>
+        <form action="submit.php" method="POST" target="_blank">
+            <label for="nama">Nama:</label>
+            <input type="text" id="nama" name="nama" placeholder="Masukkan nama"><br><br>
+
+            <label for="NPM">NPM:</label>
+            <input type="number" id="npm" name="npm" placeholder="Masukkan NPM"><br><br>
+            
+            <label for="kelas">Kelas:</label>
+            <select name = "kelas">
+                <option value="">Pilih Kelas</option>
+                <option value="A">A</option>
+                <option value="B">B</option>
+            </select><br><br>
+
+            <label for="tanggal">Tanggal:</label>
+            <input type="date" id="date" name="date"><br><br>
+
+            <label for="waktu">Waktu:</label>
+            <input type="time" id="time" name="time"><br><br>
+
+            <button type="submit">Submit</button>
+        </form>
+        </form>
+    </section>
+    
+    <footer>
+        <p>Dikulum Dikunyah, Assalamualaikum Asdos Pemweb #SIKAPPPPP</p>
+    </footer>
+</body>
+</html>
